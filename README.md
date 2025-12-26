@@ -41,4 +41,5 @@ This project helped me understand how basic data analysis and visualization
 can be done using Python. It is a simple beginner level project.
 
 Author:
-Student Project
+KOMAL SINGH(cse aiml)
+
