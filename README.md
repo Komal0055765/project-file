@@ -1,88 +1,45 @@
-Online Payment Analysis (Python)
-About This Project
+Online Payment Analysis Project
 
-This project is based on online payment data analysis using Python.
-The main purpose of this project is to understand different payment methods and analyze their transaction amounts using simple Python concepts.
+This project is based on simple analysis of online payment methods using Python.
+It is created for practice and learning purpose.
 
-Dataset Used:
+In this project, a small dataset is used which contains different payment methods
+and their transaction amounts.
 
-The dataset is stored in a CSV file named:
+Dataset:
+The dataset file name is payment_data.csv.
+It has two columns:
+payment_type – shows the type of payment method
+transaction_amount – shows the amount of each transaction
 
-payment_data.csv
+Steps followed in the code:
 
-Columns in Dataset:
+Step 1:
+First, pandas and matplotlib libraries are imported.
 
-payment_type – type of payment method
+Step 2:
+The CSV file is loaded using pandas and stored in a dataframe.
 
-transaction_amount – amount of each transaction
+Step 3:
+The complete dataset is printed in the output so that all rows can be seen.
 
-The dataset is manually created for learning and practice.
+Step 4:
+Statistical analysis is performed on the transaction_amount column.
+Total transactions, total amount, average, maximum and minimum values are calculated.
 
-Tools Used
-
-Python
-
-Pandas
-
-Matplotlib
-
-VS Code / Jupyter Notebook
-
-Step by Step Working of Code
-Step 1: Import Libraries
-
-First, required libraries are imported to work with data and graphs.
-
-import pandas as pd
-import matplotlib.pyplot as plt
-
-Step 2: Load CSV File
-
-The CSV file is read using pandas and stored in a DataFrame.
-
-df = pd.read_csv("payment_data.csv")
-
-Step 3: Display Full Dataset
-
-The complete dataset is printed in the output so that all records can be seen clearly.
-
-print(df.to_string(index=False))
-
-Step 4: Statistical Analysis
-
-Basic statistical calculations are performed to understand the data better.
-
-Total number of transactions
-
-Total transaction amount
-
-Average transaction amount
-
-Maximum and minimum transaction values
-
-Step 5: Bar Chart
-
+Step 5:
 A bar chart is created to show the total transaction amount for each payment method.
 
-This helps in comparing payment methods visually.
-
-Step 6: Pie Chart
-
+Step 6:
 A pie chart is created to show the usage distribution of payment methods.
 
-This represents how frequently each payment method is used.
+Output:
+The output shows the full dataset, statistical values, a bar chart and a pie chart.
+These graphs help to understand the data easily.
 
-Result
+Conclusion:
+This project helped me understand how basic data analysis and visualization
+can be done using Python. It is a simple beginner level project.
 
-Using this project, we can easily understand:
-
-Which payment method is used more
-
-Which payment method has higher transaction value
-
-Graphs make the analysis easy and clear compared to raw data.
-
-Conclusion
-
-This project helped me understand basic data analysis and visualization using Python.
-It is a simple project created for learning purposes and practical understanding of pandas and matplotlib.
+Author:
+Student Project
